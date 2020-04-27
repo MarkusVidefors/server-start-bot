@@ -18,7 +18,7 @@ class Bot(commands.bot.Bot):
         print('------')
 
 
-class AwsCog(commands.Cog)
+class AwsCog(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
