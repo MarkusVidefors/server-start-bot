@@ -31,3 +31,7 @@ class Bot(commands.bot.Bot):
             f"{response['StartingInstances'][0]['CurrentState']['Name']}"
         )
 
+
+if __name__ == '__main__':
+    bot = Bot(command_prefix="!")
+    bot.run(sys.argv[1])
